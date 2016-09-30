@@ -1,0 +1,5 @@
+var quotes =[{"id":0,"link":"","tex":"If someone strikes you on the right cheek, turn to him the other also.","author":"Bible","date":""},
+		{"id":1,"link":"","tex":"We don’t see things as they are, we see them as we are.","author":"Anais Nin","date":""},
+		{"id":2,"link":"","tex":"Remember that failure is an event, not a person.","author":"Zig Ziglar","date":""},
+		{"id":3,"link":"","tex":"Success is going from failure to failure without losing your enthusiasm.","author":"Winston Churchill","date":""},
+		{"id":4,"link":"","tex":"The journey of a thousand miles begins with one step.","author":"Lao Tzu","data":""}];
