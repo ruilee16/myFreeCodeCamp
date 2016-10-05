@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script>
+var cities=[];
+var apikey="3fcfd6037b51025116ea7fd88252499b";
+function showLocalWeather(){
+		
+	if (navigator.geolocation){
+		navigator.geolocation.getCurrentPosition(function(position){
+			
+			var getapi="api.openweathermap.org/data/2.5/weather?lat="+position.coords.latitude+"&lon="+position.coords.longitude+"&APPID"+apikey;
+
+			
+			$(".blank").html(getapi);
+
+		})
+	}
+	else {
+		alert("please select a city");
+	}
+}
+
+	
+</script>
+</head>
+<body>
+	<h1 onclick="showLocalWeather()">weather box</h1>
+	<div class="blank"></div>
+</body>
+</html>
